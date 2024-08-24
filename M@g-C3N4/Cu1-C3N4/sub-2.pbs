@@ -1,0 +1,33 @@
+#PBS -N vasp
+#PBS -l nodes=1:ppn=32
+#PBS -q gpu
+#PBS -V
+#PBS -S /bin/bash 
+### Set intel environment###
+#module load intel/2022.02
+#module load hdf5
+
+start_time=$(date +"%Y-%m-%d %H:%M:%S")
+
+module load hdf5
+module load gcc/9.3.0
+source /public/software/intel2020u2/intel2020u2_env.sh
+
+
+cd $PBS_O_WORKDIR
+NP=`cat $PBS_NODEFILE | wc -l`
+NN=`cat $PBS_NODEFILE | sort | uniq | tee /tmp/nodes.$$ | wc -l`
+cat $PBS_NODEFILE > /tmp/nodefile.$$
+mpirun  -machinefile /tmp/nodefile.$$ -n $NP /public/software/vasp.6.3.2/bin/vasp_gam 1>log 2>err
+
+end_time=$(date +"%Y-%m-%d %H:%M:%S")
+start_seconds=$(date -d "$start_time" +%s)
+end_seconds=$(date -d "$end_time" +%s)
+elapsed_seconds=$((end_seconds - start_seconds))
+elapsed_minutes=$(echo "scale=1; $elapsed_seconds / 60" | bc)"min"
+
+echo $(date) $PBS_JOBID $USER $PBS_JOBNAME $PBS_O_WORKDIR $elapsed_minutes >> ~/mail
+
+
+rm -rf /tmp/nodefile.$$
+rm -rf /tmp/nodes.$$
