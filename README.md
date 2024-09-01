@@ -6,6 +6,7 @@ Quick start of Computational Chemistry
   - [催化老司机-电催化计算](https://www.bilibili.com/video/BV17K411K7oH/?spm_id_from=333.337.search-card.all.click&vd_source=dbd7edddb514b6a82b44048682e9c391)
 - 计算理论
   - [啦啦黑还黑-理论计算](https://www.bilibili.com/video/BV1KE411c7Jw/?spm_id_from=333.788.recommend_more_video.-1&vd_source=dbd7edddb514b6a82b44048682e9c391)
+  - [电催化台阶图](https://www.bilibili.com/video/BV1PJ411A7jw/?vd_source=dbd7edddb514b6a82b44048682e9c391)
 - 软件学习
 - VASP 
   - [大师兄科研网ex1-ex85](https://www.bigbrosci.com/)
@@ -21,3 +22,5 @@ Quick start of Computational Chemistry
   - 机器学习
   - ASE
   - OS & pandas
+  - graph
+    - [python台阶图](https://bohrium.dp.tech/notebooks/4934994790)
