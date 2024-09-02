@@ -1,1 +1,2 @@
 species        energy            force
+[1;32mAuAgPd          [0m     [42m
