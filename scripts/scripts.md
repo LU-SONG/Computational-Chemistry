@@ -53,4 +53,4 @@
 |save+zip_all_OUTPUT.sh|Copy the VASP calculation related files (CONTCAR, INCAR, KPOINTS, OSZICAR, OUTCAR, POTCAR) from all the first-level subdirectories in the current directory to a temporary directory, then pack these files into a ZIP file, and finally delete the temporary directory.|save+zip_all_OUTPUT.sh|
 |save+zip_OUTPUT.sh|Copy the CONTCAR files from all the first-level subdirectories in the current directory to a temporary directory, then pack these files into a ZIP file, and finally delete the temporary directory.|save+zip_OUTPUT.sh|
 |scpfiles2cfff.sh|Use the scp command via SSH to copy files or directories from the local machine to a remote server, and handle any interactive prompts that may appear.|scpfiles2cfff.sh -path|
-|time.sh|get energy and force from OUTCAR/OSZICAR|ta.sh or ta.sh -g|
+|ta.sh|Get energy and force from OUTCAR/OSZICAR|ta.sh or ta.sh -g|
