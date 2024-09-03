@@ -1,0 +1,15 @@
+species        energy            force
+[1;32mAuAgPd          [0m     [42m
+[1;32mAuCuCu          [0m     [42m
+[1;32mAuCuPd          [0m     [42m
+[1;32mAuPdPd          [0m     [42m
+[1;32mAgAgAg          [0m     [42m
+[1;32mAgAgCu          [0m     [42m
+[1;32mAgAgPd          [0m     [42m
+[1;32mAgCuCu          [0m     [42m
+[1;32mAgCuPd          [0m     [42m
+[1;32mAgPdPd          [0m     [42m
+[1;32mCuCuCu          [0m     [42m
+[1;32mCuCuPd          [0m     [42m
+[1;32mCuPdPd          [0m     [42m
+[1;32mPdPdPd          [0m     [42m

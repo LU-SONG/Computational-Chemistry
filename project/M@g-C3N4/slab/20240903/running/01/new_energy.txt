@@ -1,0 +1,10 @@
+species        energy            force
+[1;32mAu          [0m     [42m
+[1;32mAg          [0m     [42m
+[1;32mCu               reached
+[1;32mPd          [0m     [42m
+[1;32mAuAu          [0m     [42m
+[1;32mAuAg          [0m     [42m
+[1;32mAuCu          [0m     [42m
+[1;32mAuPd          [0m     [42m
+[1;32mAgAg          [0m     [42m
