@@ -1,2 +1,0 @@
-species        energy            force
-[1;32mCu               reached
